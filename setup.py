@@ -21,5 +21,8 @@ setup(
         "console_scripts": [
             "evaluate_functional_correctness = human_eval.evaluate_functional_correctness:main",
         ]
-    }
+    },
+    package_data={
+        '': ['data/HumanEval.jsonl.gz'],
+    },
 )
